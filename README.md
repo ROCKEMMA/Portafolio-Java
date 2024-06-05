@@ -4,6 +4,10 @@
 
 ### Descripción de los Programas
 
+#### Main
+- **Archivo:** `Main.java`
+- **Descripción:** Punto de entrada principal del portafolio, puede utilizarse para navegar entre los diferentes programas.
+
 #### Conversor
 - **Archivo:** `Conversor.java`
 - **Descripción:** Un programa que permite la conversión entre diferentes unidades de medida.
@@ -20,15 +24,11 @@
 - **Archivo:** `ListaDeCompras.java`
 - **Descripción:** Permite la gestión de una lista de compras, añadiendo y eliminando artículos.
 
-#### Main
-- **Archivo:** `Main.java`
-- **Descripción:** Punto de entrada principal del portafolio, puede utilizarse para navegar entre los diferentes programas.
-
 #### Matemáticas
 - **Archivo:** `Mate.java`
 - **Descripción:** Contiene métodos y operaciones matemáticas comunes, como cálculo de factorial, potencias, etc.
 
-### Mis Métodos
+#### Mis Métodos
 - **Archivo:** `MisMetodos.java`
 - **Descripción:** Colección de métodos utilitarios que se pueden reutilizar en otros programas.
 
@@ -40,17 +40,20 @@
 - **Archivo:** `IMC.java`
 - **Descripción:** Calcula el Índice de Masa Corporal (IMC) basado en la altura y el peso proporcionados por el usuario.
 
-### Cómo Empezar
+## Cómo Empezar
 
 1. **Clonar el Repositorio:**
    ```sh
    git clone https://github.com/usuario/nombre-repo.git
    cd nombre-repo
-   
-   # Cada programa puede ser compilado y ejecutado utilizando el siguiente comando:
+   ```
+2. **Compila todos los programas:**
+Cada programa puede ser compilado y ejecutado utilizando el siguiente comando:
+   ```sh
    javac <ruta/al/archivo/Programa.java>
    java <ruta/al/archivo/Programa>
-
+```
+----
 #### Contribución
 
 Las contribuciones son bienvenidas. Siéntete libre de abrir un issue o enviar un pull request si encuentras algún problema o tienes alguna mejora.
