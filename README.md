@@ -54,7 +54,7 @@ Cada programa puede ser compilado y ejecutado utilizando el siguiente comando:
    java <ruta/al/archivo/Programa>
    ```
 
-----
+***
 #### Contribución
 
 Las contribuciones son bienvenidas. Siéntete libre de abrir un issue o enviar un pull request si encuentras algún problema o tienes alguna mejora.
