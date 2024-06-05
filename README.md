@@ -52,7 +52,8 @@ Cada programa puede ser compilado y ejecutado utilizando el siguiente comando:
    ```sh
    javac <ruta/al/archivo/Programa.java>
    java <ruta/al/archivo/Programa>
-```
+   ```
+
 ----
 #### Contribución
 
