@@ -1,37 +1,40 @@
 // importar del nombrePaquete.nombreClase
+import conversor.Monedas;
+import conversor.Longitudes;
 import interfaz_grafica.Banner;
 import lista.ListaDeCompras;
-import matematicas.Mate;
-import opciones.ListaOpciones;
-import programas.IMC;
-import grados.ConversosGrados;
+import matematicas.AritmeticaBasica;
+import mis_metodos.ListaOpciones;
+import IMC.IMC;
+import conversor.ConversosGrados;
+import mis_metodos.MisMetodos;
 
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
 
-        // LISTA DE OPCIONES
         String[] listaDeOpciones = {
-                "Calculadora", "IMC","Farenheit / Celsius", "Calcular edad","Grados",
-                "Lista de compras","Opción_7", "Opción_8", "Opción_9", "Salir"
+                "Calculadora", "Calcular IMC","Farenheit | Celsius", "Conversor de unidades","Calcular edad",
+                "Lista de compras","Conversor de Monedas", "Opción_8", "Opción_9", "Salir"
         };
 
         boolean programa = true;
         do {
-            Banner.mensaje();
+            Banner.mostrarMensaje();
+            MisMetodos.imprimirLinea();
 
             ListaOpciones.cargarOpciones(listaDeOpciones);
 
-            Scanner intOpcion = new Scanner(System.in);
-            System.out.print("[?]: ");
-            int opcion = intOpcion.nextInt();
-            System.out.println("----------------------------------------------");
+            Scanner scanner = new Scanner(System.in);
+            System.out.print("[?] ");
+            int opcion = scanner.nextInt();
 
-            // OPCIONES
+            MisMetodos.imprimirLinea();
+
             switch (opcion){
                 case 1:
-                    Mate.programa();
+                    AritmeticaBasica.programa();
                     break;
                 case 2:
                     IMC.programaIMC();
@@ -40,12 +43,15 @@ public class Main {
                     ConversosGrados.programaGrados();
                     break;
                 case 4:
+                    Longitudes.programa();
                     break;
                 case 5:
                     break;
                 case 6:
                     ListaDeCompras.programa();
                     break;
+                case 7:
+                    Monedas.programa();
                 case 10:
                     programa = false;
                     break;

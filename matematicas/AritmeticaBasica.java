@@ -1,10 +1,11 @@
 package matematicas;
 
-import opciones.ListaOpciones;
+import mis_metodos.ListaOpciones;
+import mis_metodos.MisMetodos;
 
 import java.util.Scanner;
 
-public class Mate {
+public class AritmeticaBasica {
     public static String[] opciones = {"Sumar","Restar","Dividir","Multiplicar"};
 
     // FUNCIONES
@@ -16,16 +17,15 @@ public class Mate {
     // MÉTODO
     public static void programa(){
         System.out.println("[ MATEMÁTICAS ]");
-        ListaOpciones.cargarOpciones(Mate.opciones);
+        ListaOpciones.cargarOpciones(AritmeticaBasica.opciones);
 
         Scanner intoDato = new Scanner(System.in);
-        System.out.print("[?]: ");
+        System.out.print("[?] ");
         int dato = intoDato.nextInt();
 
-        System.out.println();
-        System.out.print("num1: ");
+        System.out.print("[n1] ");
         double num1 = intoDato.nextInt();
-        System.out.print("num2: ");
+        System.out.print("[n2] ");
         double num2 = intoDato.nextDouble();
 
         double r = 0;
@@ -44,7 +44,7 @@ public class Mate {
                 r = multiplicar(num1,num2);
                 break;
         }
-        System.out.println("[R] "+"Resultado: "+ r+ "\n");
-        System.out.println("----------------------------------------------");
+        System.out.println("[R]  "+ r);
+        MisMetodos.imprimirLinea();
     }
 }

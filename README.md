@@ -1,12 +1,12 @@
 ## Portafolio de Programas en Java
 
-¡Bienvenido a mi portafolio de programas en Java! Este repositorio contiene una colección de programas que he desarrollado para diversos propósitos. Cada subdirectorio contiene un programa específico con su propio propósito y funcionalidad. A continuación, se ofrece una descripción detallada de cada uno de ellos.
+¡Bienvenido a mi portafolio de IMC en Java! Este repositorio contiene una colección de IMC que he desarrollado para diversos propósitos. Cada subdirectorio contiene un programa específico con su propio propósito y funcionalidad. A continuación, se ofrece una descripción detallada de cada uno de ellos.
 
 ### Descripción de los Programas
 
 #### Main
 - **Archivo:** `Main.java`
-- **Descripción:** Punto de entrada principal del portafolio, puede utilizarse para navegar entre los diferentes programas.
+- **Descripción:** Punto de entrada principal del portafolio, puede utilizarse para navegar entre los diferentes IMC.
 
 #### Conversor
 - **Archivo:** `Conversor.java`
@@ -30,7 +30,7 @@
 
 #### Mis Métodos
 - **Archivo:** `MisMetodos.java`
-- **Descripción:** Colección de métodos utilitarios que se pueden reutilizar en otros programas.
+- **Descripción:** Colección de métodos utilitarios que se pueden reutilizar en otros IMC.
 
 #### Opciones
 - **Archivo:** `ListaOpciones.java`
@@ -47,7 +47,7 @@
    git clone https://github.com/usuario/nombre-repo.git
    cd nombre-repo
    ```
-2. **Compila todos los programas:**
+2. **Compila todos los IMC:**
 Cada programa puede ser compilado y ejecutado utilizando el siguiente comando:
    ```sh
    javac <ruta/al/archivo/Programa.java>

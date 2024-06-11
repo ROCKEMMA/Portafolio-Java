@@ -1,5 +1,5 @@
-package grados;
-import opciones.ListaOpciones;
+package conversor;
+import mis_metodos.ListaOpciones;
 
 import java.util.Scanner;
 
