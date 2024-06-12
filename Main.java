@@ -3,7 +3,7 @@ import conversor.Monedas;
 import conversor.Longitudes;
 import interfaz_grafica.Banner;
 import lista.ListaDeCompras;
-import matematicas.AritmeticaBasica;
+import calculadora.AritmeticaBasica;
 import mis_metodos.ListaOpciones;
 import IMC.IMC;
 import conversor.ConversosGrados;

@@ -1,4 +1,4 @@
-package matematicas;
+package calculadora;
 
 import mis_metodos.ListaOpciones;
 import mis_metodos.MisMetodos;
