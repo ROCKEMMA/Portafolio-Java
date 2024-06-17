@@ -2,6 +2,7 @@
 import conversor.Monedas;
 import conversor.Longitudes;
 import interfaz_grafica.Banner;
+import libros.Biblioteca;
 import lista.ListaDeCompras;
 import calculadora.AritmeticaBasica;
 import mis_metodos.ListaOpciones;
@@ -16,7 +17,7 @@ public class Main {
 
         String[] listaDeOpciones = {
                 "Calculadora", "Calcular IMC","Farenheit | Celsius", "Conversor de unidades","Calcular edad",
-                "Lista de compras","Conversor de Monedas", "Opción_8", "Opción_9", "Salir"
+                "Lista de compras","Conversor de Monedas", "Biblioteca", "Opción_9", "Salir"
         };
 
         boolean programa = true;
@@ -52,6 +53,8 @@ public class Main {
                     break;
                 case 7:
                     Monedas.programa();
+                case 8 :
+                    Biblioteca.programa();
                 case 10:
                     programa = false;
                     break;
